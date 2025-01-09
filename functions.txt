@@ -1,0 +1,52 @@
+Looping:
+    Loopingstatements.js:
+          For(let i=1;i<=5;i++);{
+Console.log(“hello world”);
+}
+Int n=100;
+For(let i=0;i<=100;i++){
+Console.log(i);
+}
+For(i%2==0){
+Console.log(i+”is a even number”);
+FACTORIAL NUMBER:
+Function Factorial(n);
+Int result = 1;
+For( let i=1;i<=n;i++){
+result * = i;
+return result;
+}
+Console.log(factorial(5));
+FUNCTIONS: 
+Function is a block of code used to perform a specific task.
+	Functions can be reuse for n number of times
+SYNTAX:
+It should always begin with function
+Function function_name(optional parameters)// function declaration
+{
+//Statements
+}
+Function_name(arguments);//function calling
+
+Note: without calling the function the function cant be executed.
+TYPES OF FUNCTIONS:
+1)	Named function           : function which is having a name to declare and to 
+2)	Anonymous function       : function which does not have a name for declare.it cant be executed independently.
+3)	Function expression      : function declaration is assigined as a value to the variabale and same function is invoked through same function.
+4)	Immediate invoke function expression : once the function is created we can execute only one time.
+-> here HELLO WORLD can be executed only one time.
+5)	Arrow function           : 
+syntax: ()->{};
+- it is also similar to an function. 
+6)	Higher order function
+7)	Call back function
+
+note: the current version of javascript is : es14.
+es : ECMA SCRIPT
+ECMA: europen computer manifacturing association.
+
+return statement: it will return eithe experssio or variabale in the function.
+exmplict : we need to use return statement to grt values
+implict : we should not get any return statement but gives the output expression.
+
+

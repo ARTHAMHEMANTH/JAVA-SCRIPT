@@ -42,12 +42,12 @@
 // }
 // console.log(factorial(5));
 
-let num = 5;
-let fact = 1;
-for(let i=1 ; i<=num;i++){
-    fact = fact*i;
-};
-console.log(fact);
+// let num = 5;
+// let fact = 1;
+// for(let i=1 ; i<=num;i++){
+//     fact = fact*i;
+// };
+// console.log(fact);
 
 // !do-while loop
 // do{
